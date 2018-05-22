@@ -2,7 +2,7 @@ body{
   color: #3C3C3B;
 }
 header{
-  height: 20vh;
+  height: 200px;
   /* border: 1px solid green; */
   display: flex;
   align-items: center;
@@ -45,7 +45,7 @@ H4{
   font-family: AvenirBold;
 }
 nav{
-  height: 4vh;
+  height: 40px;
   padding-bottom: 8px;
   border-bottom: 1px solid #B9B9B9;
 }
@@ -60,47 +60,50 @@ nav ul li a:hover{
   border-bottom: 2px solid #6a6a6a;
 }
 #portada{
-  height:30vh;
+  margin-top: 15px;
+  height:250px;
   background-image: url("../assets/img/foto-portada.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 #mv{
-  margin: 4vh 0 3vh 0;
+  margin: 40px 0 10px 0;
 
 }
 .mv-content p{
-  height: 20vh;
+  height: 220px;
   text-align: justify;
   border-bottom: 1px solid #B9B9B9;
 }
 #descarga, #promovente p{
   text-transform: uppercase;
-  
   font-size: 18px;
   text-align: center;
 }
 #lAccion{
-  margin-top: 2vh;
+  margin-top: 20px;
 }
 .lAccion{
   text-transform: uppercase;
   text-align: center;
-  padding-top: 1.5vh;
+  padding-top: 25px;
 }
 #promovente{
-  margin-top: 4vh;
+  margin-top: 30px;
+}
+#respaldo{
+  margin-top: 60px;
 }
 #formulario{
-  margin-top: 5vh;
+  margin-top: 50px;
 }
 #formulario, #formulario label{
   background-color: #575756;
   color: #fff;
-  padding: 5vh 0 5vh 0;
+  padding: 50px 0 50px 0;
 }
 #formulario p{
-  margin-bottom: 3vh;
+  margin-bottom: 35px;
 }
 
 #formulario input[type=submit]{
@@ -116,6 +119,23 @@ nav ul li a:hover{
   border-radius: 18px;
 }
 footer{
-  height: 10vh;
+  height: 110px;
   background-color: #B9B9B9;
 }
+.cinta-marquee{
+  /* background-color: #ececec; */
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+.cinta-marquee img{
+  /* margin: 10px 20px 10px 20px; */
+  height: 90px;
+}
+.slick-slide{
+    margin: 0px 15px;
+}
+.slider{
+        width: 80%;
+        margin: 5px auto;
+      }
