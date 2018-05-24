@@ -65,6 +65,18 @@ nav ul li a:hover{
   background-image: url("../assets/img/foto-portada.png");
   background-repeat: no-repeat;
   background-position: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+#portada p{
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 22px;
+  text-shadow: 2px 3px 5px #020101;
 }
 #mv{
   margin: 40px 0 10px 0;
@@ -139,3 +151,48 @@ footer{
         width: 80%;
         margin: 5px auto;
       }
+@media (max-width: 768px) {
+  body{
+    background-color: ;
+  }
+  header{
+    height: 20vh;
+  }
+  #header h1, h2{
+    text-align: center;
+  }
+  #header h1{
+    font-size: 20px;
+  }
+  #header h2{
+    font-size: 18px;
+  }
+  #portada{
+    height: 40vh;
+  }
+  #portada p{
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+    text-shadow: 2px 3px 5px #020101;
+  }
+  #descarga{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+  }
+  #descarga img{
+    width: 250px;
+  }
+  footer{
+    height: 18vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    /* border-top: 1px solid #666; */
+  }
+}
